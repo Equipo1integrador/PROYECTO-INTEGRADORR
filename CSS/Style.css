@@ -1,0 +1,167 @@
+
+body{
+    font-family: sans-serif;
+    margin: 0;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    display:flex;
+    height: 70px;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 90px;
+    margin-left: 20px;
+    margin-top: 10px;
+
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 20px;
+}
+
+nav a:hover{
+    color: rgb(216, 26, 26);
+}
+
+
+
+.Contact{
+    text-align:right;
+    font-family:sans-serif;
+    font-size:medium;
+    margin-right: 5%;
+    font-weight: 1000;
+    color: rgb(0, 0, 0);
+}
+
+
+hr{
+    background-color: rgb(187, 0, 0);
+}
+
+#Datos{
+    font-family: sans-serif;
+    font-size:larger;
+    text-align: center;
+    
+}
+
+h1{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+h2{
+    font-family: sans-serif;
+    text-decoration:underline;
+    color:  rgb(187, 0, 0);
+
+}
+
+h3{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.texto{
+    text-align: center;
+    font-family: sans-serif;
+    font-size:larger;
+}
+
+
+.Table{
+    font-family: sans-serif;
+}
+
+.Table td{
+    font-size:medium;
+    
+}
+
+img:hover{ /*zoom raro*/
+    transform: scale(1.3);
+    animation-duration: 3s;
+}
+
+.Diagram img{
+    margin-left: 150px;
+    
+    
+}
+
+.DiagramPunto img{
+    height: 800px;
+
+    margin-bottom: 20px;
+}
+
+
+
+.Flechas img{
+    height: 60px;
+    margin-left: 5%;
+
+}
+
+
+.Imagenes img{
+    align-content: center;
+    height: 300px;
+
+    
+}
+
+
+p{
+    animation-duration: 3s;
+    animation-name:slidein;
+    animation-iteration-count: infinite;
+    margin: 60px;
+}
+
+.Document{ /*pdf*/
+    margin-left: 20%;
+    margin-top: 5%;
+
+}
+
+div.galeria{
+    margin: 5px 10px;
+    box-shadow: 0 4px 8px 0 lightblue, 0 6px 20 px rgb(0, 0, 0,0.19);
+    float: left;
+    width: 250px;
+    margin: 20px;
+}
+
+div.galeria img{
+width: 80%;
+height: auto;
+margin: 10px;
+}
+
+div.galeria:hover{
+    border: 1px solid lightcoral;
+    transform:rotate(-3deg);
+}
+
+
+
